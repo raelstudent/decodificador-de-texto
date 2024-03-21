@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="asset/image.png" type="image/x-icon">
+</head>
+
+<body>
+    
+    <main class="main_container">
+        <header class="cabecalho">
+            <h1>Menssagens decodificadas</h1>
+            <img src="asset/image.png" alt="Logo do site">
+        </header>
+        
+    <div class="container_input">
+            <div class="input">
+                <textarea id="input_text" placeholder="Digite o seu texto aqui..."></textarea>
+                <p> ATENÇÃO: Apenas letras minusculas e sem acento grafico</p>
+            </div>
+
+    <div id="output">
+            <img src="asset/logo2.png" alt="garota no texto">
+            <h2>sua menssagem aparecera aqui...</h2>
+            <span>Digite o texto que deseja criptografa ou descriptografar</span>
+            
+    </div>
+    </div>
+    
+    <div class="buttons">
+        <div class="container_bnt">
+                <button onclick="criptografar() "class="btn_criptografar">Criptografar</button>
+                <button onclick="descriptografar()"class="btn_descriptografar">Descriptografar</button>
+        </div>
+    </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+            <a href=""><ion-icon name="logo-github"></ion-icon></a>
+            <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+        <h3>Desenvolvido por Raelson Carreira |2024.</h3>
+    </footer>
+   
+    <script src="script.js"></script>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" > </script> 
+    <script nomodule  src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+
+</body>
+</html>
